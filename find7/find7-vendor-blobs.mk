@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/oppo/find7/proprietary/lib/libjpeg_old.so:system/lib/libjpeg_old.so \
     vendor/oppo/find7/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/find7/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/find7/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
