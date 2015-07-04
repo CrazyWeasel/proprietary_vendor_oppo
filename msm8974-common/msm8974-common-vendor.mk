@@ -32,6 +32,9 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
+    liblisten
+
+PRODUCT_PACKAGES += \
     libscale \
 
 PRODUCT_PACKAGES += \
