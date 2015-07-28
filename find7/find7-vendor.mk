@@ -16,4 +16,9 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+PRODUCT_PACKAGES += \
+    libmmcamera_interface \
+    libmmjpeg_interface \
+    libqomx_core \
+
 $(call inherit-product, vendor/oppo/find7/find7-vendor-blobs.mk)
