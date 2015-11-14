@@ -16,9 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oppo/find7-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/oppo/find7-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/oppo/find7-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/oppo/find7-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/oppo/find7-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/oppo/find7-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/oppo/find7-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -54,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7-common/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so
 
 PRODUCT_COPY_FILES += \
-    vendor/oppo/find7-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/oppo/find7-common/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/oppo/find7-common/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/oppo/find7-common/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
