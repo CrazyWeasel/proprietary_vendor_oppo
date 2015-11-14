@@ -30,9 +30,6 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
-    libscale \
-
-PRODUCT_PACKAGES += \
     libwvdrmengine \
     libwvdrm_L3 \
     libwvm \
