@@ -25,9 +25,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     libmm-abl \
-    libtime_genoff \
-    libTimeService \
-    TimeService
+    libtime_genoff
 
 PRODUCT_PACKAGES += \
     libscale \
