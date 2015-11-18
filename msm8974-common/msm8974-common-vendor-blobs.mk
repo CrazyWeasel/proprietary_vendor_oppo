@@ -122,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/oppo/msm8974-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \

@@ -20,8 +20,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    libTimeService \
-    TimeService
 
 PRODUCT_PACKAGES += \
     libwvdrmengine \
