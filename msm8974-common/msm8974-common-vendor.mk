@@ -23,12 +23,7 @@ PRODUCT_PACKAGES += \
     shutdownlistener
 
 PRODUCT_PACKAGES += \
-    libHevcSwDecoder \
-    libmm-abl \
     libtime_genoff
-
-PRODUCT_PACKAGES += \
-    libscale \
 
 PRODUCT_PACKAGES += \
     libwvdrmengine \
@@ -45,6 +40,6 @@ PRODUCT_PACKAGES += \
     libdiag \
     libqmi_client_qmux \
     libdsutils \
-#    libwpa_qmi_eap_proxy
+    libwpa_qmi_eap_proxy
 
 $(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor-blobs.mk)
