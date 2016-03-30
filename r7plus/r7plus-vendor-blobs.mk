@@ -294,9 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/oppo/r7plus/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/oppo/r7plus/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/oppo/r7plus/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/oppo/r7plus/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_FW_S3508_Samsung.img:system/etc/firmware/tp/15018/15018_FW_S3508_Samsung.img \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img:system/etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_Limit_Samsung.img:system/etc/firmware/tp/15018/15018_Limit_Samsung.img
