@@ -107,3 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7-common/proprietary/vendor/lib/libchromatix_ov5648_zsl.so:system/vendor/lib/libchromatix_ov5648_zsl.so \
     vendor/oppo/find7-common/proprietary/vendor/lib/libchromatix_ov5648_zsl_fb.so:system/vendor/lib/libchromatix_ov5648_zsl_fb.so \
     vendor/oppo/find7-common/proprietary/vendor/lib/libchromatix_ov5648_zsl_find7s.so:system/vendor/lib/libchromatix_ov5648_zsl_find7s.so
+
+PRODUCT_COPY_FILES += \
+    vendor/oppo/find7-common/proprietary/vendor/lib/hw/nfc_nci.msm8974.so:system/vendor/lib/hw/nfc_nci.msm8974.so \
