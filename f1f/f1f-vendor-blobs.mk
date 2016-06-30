@@ -144,6 +144,38 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/oppo/f1f/proprietary/bin/cnd:system/bin/cnd \
+    vendor/oppo/f1f/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/oppo/f1f/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/oppo/f1f/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/oppo/f1f/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/oppo/f1f/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/oppo/f1f/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/oppo/f1f/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    vendor/oppo/f1f/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/oppo/f1f/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    vendor/oppo/f1f/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/oppo/f1f/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/oppo/f1f/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/oppo/f1f/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/oppo/f1f/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/oppo/f1f/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/oppo/f1f/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/f1f/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/oppo/f1f/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
@@ -158,26 +190,36 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/f1f/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oppo/f1f/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/oppo/f1f/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
+    vendor/oppo/f1f/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/oppo/f1f/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/oppo/f1f/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/oppo/f1f/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/oppo/f1f/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/oppo/f1f/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/oppo/f1f/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/oppo/f1f/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/oppo/f1f/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/oppo/f1f/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/oppo/f1f/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/oppo/f1f/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
