@@ -216,11 +216,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/oppo/f1f/proprietary/bin/psensord:system/bin/psensord \
     vendor/oppo/f1f/proprietary/lib64/hw/sensors.hal.tof.so:system/lib64/hw/sensors.hal.tof.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
-    vendor/oppo/f1f/proprietary/vendor/lib/libcalmodule_yamaha.so:system/vendor/lib/libcalmodule_yamaha.so \
-    vendor/oppo/f1f/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so \
     vendor/oppo/f1f/proprietary/vendor/lib64/libcalmodule_memsic.so:system/vendor/lib64/libcalmodule_memsic.so \
-    vendor/oppo/f1f/proprietary/vendor/lib64/libcalmodule_yamaha.so:system/vendor/lib64/libcalmodule_yamaha.so \
     vendor/oppo/f1f/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/oppo/f1f/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/oppo/f1f/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
