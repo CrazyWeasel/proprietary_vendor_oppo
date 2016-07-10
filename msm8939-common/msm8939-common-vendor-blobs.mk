@@ -17,6 +17,30 @@
 ifeq ($(FORCE_32_BIT),true)
 
 PRODUCT_COPY_FILES += \
+    vendor/oppo/msm8939-common/proprietary-32/bin/cnd:system/bin/cnd \
+    vendor/oppo/msm8939-common/proprietary-32/bin/dpmd:system/bin/dpmd \
+    vendor/oppo/msm8939-common/proprietary-32/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/oppo/msm8939-common/proprietary-32/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/oppo/msm8939-common/proprietary-32/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/oppo/msm8939-common/proprietary-32/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/oppo/msm8939-common/proprietary-32/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/oppo/msm8939-common/proprietary-32/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    vendor/oppo/msm8939-common/proprietary-32/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/oppo/msm8939-common/proprietary-32/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    vendor/oppo/msm8939-common/proprietary-32/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/oppo/msm8939-common/proprietary-32/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/oppo/msm8939-common/proprietary-32/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/oppo/msm8939-common/proprietary-32/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/oppo/msm8939-common/proprietary-32/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/oppo/msm8939-common/proprietary-32/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/oppo/msm8939-common/proprietary-32/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/msm8939-common/proprietary-32/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -29,11 +53,24 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/oppo/msm8939-common/proprietary-32/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/oppo/msm8939-common/proprietary-32/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/oppo/msm8939-common/proprietary-32/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/oppo/msm8939-common/proprietary-32/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/oppo/msm8939-common/proprietary-32/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/oppo/msm8939-common/proprietary-32/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -66,6 +103,38 @@ PRODUCT_COPY_FILES += \
 else
 
 PRODUCT_COPY_FILES += \
+    vendor/oppo/msm8939-common/proprietary-64/bin/cnd:system/bin/cnd \
+    vendor/oppo/msm8939-common/proprietary-64/bin/dpmd:system/bin/dpmd \
+    vendor/oppo/msm8939-common/proprietary-64/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/oppo/msm8939-common/proprietary-64/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/oppo/msm8939-common/proprietary-64/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/oppo/msm8939-common/proprietary-64/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/oppo/msm8939-common/proprietary-64/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/oppo/msm8939-common/proprietary-64/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    vendor/oppo/msm8939-common/proprietary-64/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/oppo/msm8939-common/proprietary-64/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    vendor/oppo/msm8939-common/proprietary-64/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/oppo/msm8939-common/proprietary-64/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/oppo/msm8939-common/proprietary-64/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/oppo/msm8939-common/proprietary-64/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/oppo/msm8939-common/proprietary-64/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/oppo/msm8939-common/proprietary-64/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/oppo/msm8939-common/proprietary-64/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/msm8939-common/proprietary-64/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
@@ -78,16 +147,37 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/oppo/msm8939-common/proprietary-64/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/oppo/msm8939-common/proprietary-64/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/oppo/msm8939-common/proprietary-64/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/oppo/msm8939-common/proprietary-64/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/oppo/msm8939-common/proprietary-64/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/oppo/msm8939-common/proprietary-64/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
